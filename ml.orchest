@@ -1,0 +1,246 @@
+{
+    "name": "ml",
+    "parameters": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "10b254c9-3696-4155-a570-99ddffb67c1a": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "data.py",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    352.5,
+                    445
+                ]
+            },
+            "parameters": {},
+            "title": "Data",
+            "uuid": "10b254c9-3696-4155-a570-99ddffb67c1a"
+        },
+        "178ab07a-fe1e-4c75-9b36-f4061cf286c9": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "lgbm",
+            "incoming_connections": [
+                "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1070.7996515679442,
+                    568.9686411149825
+                ]
+            },
+            "parameters": {},
+            "title": "LGBM",
+            "uuid": "178ab07a-fe1e-4c75-9b36-f4061cf286c9"
+        },
+        "24253164-a9b3-4064-b4ea-f83d57b95995": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "results.ipynb",
+            "incoming_connections": [
+                "41796aa8-35e6-4af5-9bc7-ea18dfb13760"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    864.5,
+                    165
+                ]
+            },
+            "parameters": {},
+            "title": "Results",
+            "uuid": "24253164-a9b3-4064-b4ea-f83d57b95995"
+        },
+        "3053840c-9ed7-49e1-a2aa-0a23712ad736": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "ensemble.ipynb",
+            "incoming_connections": [
+                "178ab07a-fe1e-4c75-9b36-f4061cf286c9",
+                "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5",
+                "857a0f5f-8f67-4484-be06-ea4ac6585342"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1357.9878048780488,
+                    513.3414634146342
+                ]
+            },
+            "parameters": {},
+            "title": "Ensemble",
+            "uuid": "3053840c-9ed7-49e1-a2aa-0a23712ad736"
+        },
+        "41796aa8-35e6-4af5-9bc7-ea18dfb13760": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "automl.ipynb",
+            "incoming_connections": [
+                "10b254c9-3696-4155-a570-99ddffb67c1a"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    618.5,
+                    294
+                ]
+            },
+            "parameters": {},
+            "title": "AutoML",
+            "uuid": "41796aa8-35e6-4af5-9bc7-ea18dfb13760"
+        },
+        "4eb2d2ab-10e1-4efe-b843-1ea1590a1480": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "preprocessing.ipynb",
+            "incoming_connections": [
+                "10b254c9-3696-4155-a570-99ddffb67c1a"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    767.5,
+                    444
+                ]
+            },
+            "parameters": {},
+            "title": "Preprocessing",
+            "uuid": "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
+        },
+        "6f40dc19-0ef1-45eb-b979-73b1222b3e70": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "comparison.ipynb",
+            "incoming_connections": [
+                "fb681844-e273-40b8-ab9a-07e0b94c1d0d",
+                "3053840c-9ed7-49e1-a2aa-0a23712ad736"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1597.5,
+                    455
+                ]
+            },
+            "parameters": {},
+            "title": "Comparison",
+            "uuid": "6f40dc19-0ef1-45eb-b979-73b1222b3e70"
+        },
+        "857a0f5f-8f67-4484-be06-ea4ac6585342": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "logistic-regression.ipynb",
+            "incoming_connections": [
+                "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1067.4808362369336,
+                    322.74912891986077
+                ]
+            },
+            "parameters": {},
+            "title": "Logistic Regression",
+            "uuid": "857a0f5f-8f67-4484-be06-ea4ac6585342"
+        },
+        "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "naive-bayes",
+            "incoming_connections": [
+                "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1068.6567944250871,
+                    444.5
+                ]
+            },
+            "parameters": {},
+            "title": "Naive Bayes",
+            "uuid": "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5"
+        },
+        "d0a3e7fb-394d-405d-9265-f999fb8ebfe6": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "data-analysis.ipynb",
+            "incoming_connections": [
+                "10b254c9-3696-4155-a570-99ddffb67c1a"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    620,
+                    588
+                ]
+            },
+            "parameters": {},
+            "title": "Data Analysis",
+            "uuid": "d0a3e7fb-394d-405d-9265-f999fb8ebfe6"
+        },
+        "fb681844-e273-40b8-ab9a-07e0b94c1d0d": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "evaluation.ipynb",
+            "incoming_connections": [
+                "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5",
+                "857a0f5f-8f67-4484-be06-ea4ac6585342",
+                "178ab07a-fe1e-4c75-9b36-f4061cf286c9"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1359.5,
+                    381
+                ]
+            },
+            "parameters": {},
+            "title": "Evaluation",
+            "uuid": "fb681844-e273-40b8-ab9a-07e0b94c1d0d"
+        }
+    },
+    "uuid": "5052e7e4-2b28-4551-b1a6-412a4c7667c8",
+    "version": "1.0.0"
+}
