@@ -17,8 +17,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    349.5,
-                    441
+                    469.5,
+                    767
                 ]
             },
             "parameters": {},
@@ -38,8 +38,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1065.7996515679442,
-                    628.9686411149825
+                    1163.7996515679442,
+                    848.9686411149825
                 ]
             },
             "parameters": {},
@@ -52,7 +52,8 @@
             "incoming_connections": [
                 "178ab07a-fe1e-4c75-9b36-f4061cf286c9",
                 "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5",
-                "857a0f5f-8f67-4484-be06-ea4ac6585342"
+                "857a0f5f-8f67-4484-be06-ea4ac6585342",
+                "3d78d910-a50f-44a4-8326-c549a4f50f8c"
             ],
             "kernel": {
                 "display_name": "Python 3",
@@ -61,13 +62,34 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1357.9878048780488,
-                    506.3414634146342
+                    1477.9878048780488,
+                    832.3414634146342
                 ]
             },
             "parameters": {},
             "title": "Ensemble",
             "uuid": "3053840c-9ed7-49e1-a2aa-0a23712ad736"
+        },
+        "3d78d910-a50f-44a4-8326-c549a4f50f8c": {
+            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
+            "file_path": "lgbm.ipynb",
+            "incoming_connections": [
+                "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1164.5,
+                    981
+                ]
+            },
+            "parameters": {},
+            "title": "LGBM",
+            "uuid": "3d78d910-a50f-44a4-8326-c549a4f50f8c"
         },
         "4eb2d2ab-10e1-4efe-b843-1ea1590a1480": {
             "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
@@ -82,8 +104,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    670.5,
-                    441
+                    790.5,
+                    767
                 ]
             },
             "parameters": {},
@@ -103,8 +125,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    674.5,
-                    262
+                    794.5,
+                    588
                 ]
             },
             "parameters": {},
@@ -125,8 +147,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1629.5,
-                    445
+                    1762.5,
+                    766.3333333333333
                 ]
             },
             "parameters": {},
@@ -146,8 +168,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1062.4808362369336,
-                    382.74912891986077
+                    1160.4808362369336,
+                    602.7491289198608
                 ]
             },
             "parameters": {},
@@ -167,8 +189,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1893.5,
-                    445
+                    2032.833333333333,
+                    767.3333333333333
                 ]
             },
             "parameters": {},
@@ -188,17 +210,17 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1155.5,
-                    70
+                    1162.5,
+                    405.66666666666663
                 ]
             },
             "parameters": {},
-            "title": "Results",
+            "title": "Results                                 ",
             "uuid": "bdcdeae2-1b30-4a9d-b5e3-6f9328e4cd5f"
         },
         "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5": {
             "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
-            "file_path": "naive-bayes",
+            "file_path": "naive-bayes.ipynb",
             "incoming_connections": [
                 "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
             ],
@@ -209,34 +231,13 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1063.6567944250871,
-                    504.5
+                    1161.6567944250871,
+                    724.5
                 ]
             },
             "parameters": {},
             "title": "Naive Bayes",
             "uuid": "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5"
-        },
-        "cd8b188a-3f80-44e4-a37a-f0b46489fcf0": {
-            "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
-            "file_path": "flaml.ipynb",
-            "incoming_connections": [
-                "4eb2d2ab-10e1-4efe-b843-1ea1590a1480"
-            ],
-            "kernel": {
-                "display_name": "Python 3",
-                "name": "python"
-            },
-            "meta_data": {
-                "hidden": false,
-                "position": [
-                    1061.5,
-                    246
-                ]
-            },
-            "parameters": {},
-            "title": "flaml",
-            "uuid": "cd8b188a-3f80-44e4-a37a-f0b46489fcf0"
         },
         "d0a3e7fb-394d-405d-9265-f999fb8ebfe6": {
             "environment": "29cddbd9-ee64-4453-9b86-1fbfff20b541",
@@ -251,8 +252,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    672,
-                    582
+                    792,
+                    908
                 ]
             },
             "parameters": {},
@@ -266,7 +267,7 @@
                 "c9007541-c9ff-4e9a-9557-c2b2b5bfc4b5",
                 "857a0f5f-8f67-4484-be06-ea4ac6585342",
                 "178ab07a-fe1e-4c75-9b36-f4061cf286c9",
-                "cd8b188a-3f80-44e4-a37a-f0b46489fcf0"
+                "3d78d910-a50f-44a4-8326-c549a4f50f8c"
             ],
             "kernel": {
                 "display_name": "Python 3",
@@ -275,8 +276,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    1358.5,
-                    383
+                    1478.5,
+                    709
                 ]
             },
             "parameters": {},
