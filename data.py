@@ -11,7 +11,7 @@ print(train.head(3))
 print("Testing Data\n")
 print(test.head(3))
 
-# Output the Vaccine data
-print("\nOutputting converted Vaccine data...")
+# Output the disaster tweets
+print("\nOutputting converted disaster tweets data...")
 orchest.output((train, test), name="data")
 print("Success!")
